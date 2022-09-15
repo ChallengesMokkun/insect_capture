@@ -1,0 +1,150 @@
+body{
+  margin: 0;
+  background-color: black;
+}
+h2,h3,p{
+  margin: 0;
+}
+
+p{
+  color: #fff;
+}
+label{
+  cursor: pointer;
+}
+input[type="submit"]{
+  border: none;
+  background-color: #000;
+  color: #fff;
+  padding: 10px 10px;
+  display: block;
+}
+input[type="submit"]:hover{
+  cursor: pointer;
+  background-color: rgb(61, 55, 55);
+}
+.text_centered{
+  text-align: center;
+}
+.site_width{
+  width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 150px;
+}
+.main{
+  border: 1px solid #fff;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  height: 700px;
+  position: relative;
+}
+.title{
+  text-align: center;
+  margin-bottom: 20px;
+  color: #fff;
+}
+.sub_title{
+  color: #fff;
+  text-align: center;
+  margin-bottom: 30px;
+}
+.start_content_wrapper{
+  position: relative;
+  top: 250px;
+}
+.start_command_wrapper{
+  text-align: center;
+}
+.start_command{
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.insect_detect{
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+.insect_wrapper{
+  overflow: hidden;
+  position: relative;
+}
+.count_wrapper{
+  width: 80px;
+  height: 250px;
+  float: left;
+  position: relative;
+  left: 40px;
+  box-sizing: border-box;
+  padding-top: 67px;
+  padding-bottom: 67px;
+}
+.found_result{
+  margin-bottom: 20px;
+}
+.img_wrapper{
+  width: 250px;
+  height: 250px;
+  float: left;
+  position: relative;
+  left: 50px;
+}
+.img{
+  width: 100%;
+  height: 100%;
+}
+.cage_all_wrapper{
+  float: left;
+  height: 250px;
+  width: 50px;
+  position: relative;
+  left: 80px;
+}
+.cage_wrapper{
+  width: 48px;
+  height: 48px;
+  margin-bottom: 16px;
+  border: 1px solid #fff;
+}
+.cage_ex_wrapper{
+  width: 50px;
+  height: 50px;
+}
+.indicate_height{
+  height: 191px;
+  box-sizing: border-box;
+}
+.result_height{
+  height: 72px;
+  box-sizing: border-box;
+  text-align: center;
+}
+.observe_command_height{
+  height: 119px;
+  box-sizing: border-box;
+}
+.capture_command_wrapper{
+  padding-left: 180px;
+  padding-right: 180px;
+}
+.status_box{
+  padding: 10px 20px;
+}
+.success_command_wrapper{
+  padding-left: 150px;
+  padding-right: 150px;
+}
+.observe_command_wrapper{
+  padding-left: 170px;
+  padding-right: 170px;
+}
+.msg_box{
+  width: 100%;
+  height: 191px;
+  border: 1px solid #fff;
+  overflow-y: auto;
+  box-sizing: border-box;
+  padding: 5px;
+}
